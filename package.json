@@ -1,0 +1,20 @@
+{
+  "author": "Elijah Insua <tmpvar@gmail.com> (http://tmpvar.com)",
+  "name": "intelhex",
+  "description": "an intelhex to binary converter",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tmpvar/intelhex.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
