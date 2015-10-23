@@ -2,7 +2,7 @@
   "author": "Elijah Insua <tmpvar@gmail.com> (http://tmpvar.com)",
   "name": "intelhex",
   "description": "an intelhex to binary converter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/tmpvar/intelhex.git"
