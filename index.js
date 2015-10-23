@@ -58,7 +58,7 @@ var parse = module.exports = function(string, fn) {
           // be ignored as it does not contain any information required to
           // program the flash memory:
           // http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.faqs/ka9903.html
-          console.log('Note: Start Linear Address Record ignored.'));
+          console.log('Note: Start Linear Address Record ignored.');
         break;
 
         // Invalid format
