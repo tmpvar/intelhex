@@ -54,7 +54,11 @@ var parse = module.exports = function(string, fn) {
 
         // Start Linear Address Record
         case 5:
-          ev.emit('error', new Error('TODO: Start Linear Address Record'));
+          // According to the Arm Technical Support Knowledge Base, this could
+          // be ignored as it does not contain any information required to
+          // program the flash memory:
+          // http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.faqs/ka9903.html
+          console.log('Note: Start Linear Address Record ignored.'));
         break;
 
         // Invalid format
